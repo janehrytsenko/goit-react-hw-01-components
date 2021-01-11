@@ -1,0 +1,14 @@
+.table {
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0 0 4px 4px;
+}
+
+.tableRow:nth-child(2n) {
+  background-color: rgba(135, 138, 139, 0.267);
+}

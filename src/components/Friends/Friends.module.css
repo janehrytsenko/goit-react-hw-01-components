@@ -1,0 +1,33 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.status {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.avatar {
+  margin-left: 15px;
+}
+
+.name {
+  margin-left: 15px;
+}
